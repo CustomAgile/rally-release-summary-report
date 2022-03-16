@@ -1,0 +1,27 @@
+.app {
+}
+
+.box_title {
+    text-align:center;
+}
+
+.tsinfolink {
+    position:absolute;
+    right:0px;
+    width:5%;
+}
+
+.ts-risk {
+    color: orange;
+    font-size: 14px;
+}
+
+.ts-good {
+    color: green;
+    font-size: 14px;
+}
+
+.ts-critical {
+    color: red;
+    font-size: 14px;
+}

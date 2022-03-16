@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Release Health</title>
+    <!--  (c) 2013 Rally Software Development Corp.  All Rights Reserved. -->
+    <!--  Build Date: Sun Mar 02 2014 15:04:38 GMT-0800 (PST) -->
+    
+    <script type="text/javascript">
+        var APP_BUILD_DATE = "Sun Mar 02 2014 15:04:38 GMT-0800 (PST)";
+        var CHECKSUM = [%= checksum %];
+    </script>
+    
+    <script type="text/javascript" src="/apps/2.0rc2/sdk.js"></script>
+
+    <script type="text/javascript">
+        Rally.onReady(function() {
+            
+            
+               Rally.launchApp('CustomApp', {
+                   name: 'Release Health'
+               });
+        });
+    </script>
+    
+    <style type="text/css">
+
+.app {
+}
+
+.box_title {
+    text-align:center;
+}
+
+.tsinfolink {
+    position:absolute;
+    right:0px;
+    width:5%;
+}
+
+.ts-risk {
+    color: orange;
+    font-size: 14px;
+}
+
+.ts-good {
+    color: green;
+    font-size: 14px;
+}
+
+.ts-critical {
+    color: red;
+    font-size: 14px;
+}
+    </style>
+
+</head>
+<body></body>
+</html>
